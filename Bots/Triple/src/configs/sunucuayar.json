@@ -1,0 +1,127 @@
+{
+    "staffs": [
+        "botCommandRole"
+    ],
+    "erkekRolleri": [
+        ""
+    ],
+    "kizRolleri": [
+        ""
+    ],
+    "unregRoles": [
+        ""
+    ],
+    "yetkiRolleri": [
+        "ilk yetki rolleri"
+      ],
+    "teyitciRolleri": [
+        ""
+    ],
+    "ekipRolu": "taglı rolü",
+    "sahipRolu": [
+        "owner rolleri işte"
+    ],
+    "boosterRolu": "",
+    "warnHammer": [
+        ""
+    ],
+    "banHammer": [
+        ""
+    ],
+    "jailHammer": [
+        ""
+    ],
+    "cmuteHammer": [
+        ""
+    ],
+    "vmuteHammer": [
+        ""
+    ],
+    "tag": "",
+    "ikinciTag": "",
+    "etiket": "",
+    "jailRole": [
+        ""
+    ],
+    "chatMute": [
+        ""
+    ],
+    "voiceMute": [
+        ""
+    ],
+    "fakeAccRole": [
+        ""
+    ],
+    "rolverici": [
+        ".rolveri kullanacak şahsiyetler"
+    ],
+    "chatChannel": "",
+    "teyitKanali": "",
+    "invLogChannel": "",
+    "banLogChannel": "",
+    "jailLogChannel": "",
+    "cmuteLogChannel": "",
+    "vmuteLogChannel": "",
+    "warnLogChannel": "",
+    "kurallar": "",
+    "KomutKullanımKanalİsim": ["yetkili-bot-command","bot-command"],
+    "cezapuanlog": "",
+    "vipRole": "",
+    "müzisyenRole": "",
+    "tasarımcıRole": "",
+    "streamerRole": "",
+    "sorunçözücüRole": "",
+    "publicParents": "Parentler yani kategoriler",
+    "registerParents": [
+        ""
+    ],
+    "solvingParents": [
+        ""
+    ],
+    "privateParents": [
+        ""
+    ],
+    "aloneParents": [
+        ""
+    ],
+    "funParents": [
+        ""
+    ],
+    "serverUrl": "",
+    "Katıldı": "toplatı için katıldı rolü",
+    "yasaklıRole": [
+        "yasaklıtagrolü"
+    ],
+    "doomRole": [
+        "underworld rolü"
+    ],
+    "doomLogChannel": "",
+    "secretroomParent": "özel oda kategorisi",
+    "terapistRole": "",
+
+    "ChatLevel1": "Chat Rolleri",
+    "ChatLevel2": "",
+    "ChatLevel3": "",
+    "ChatLevel4": "",
+
+    "VoiceLevel1": "",
+    "VoiceLevel2": "",
+    "VoiceLevel3": "",
+    "VoiceLevel4": "",
+
+    "LevelUpChannelName": "level-bilgilendirme",
+
+    "boosterLog": "booster log kanal idsi",
+
+    "basvuruDurum": "yetkilibaşvuru onaylandıktan yada reddedildikten sonra gidecek bilgilendirme mesajı",
+
+    "streamerDurum": "yetkilibaşvuru onaylandıktan yada reddedildikten sonra gidecek bilgilendirme mesajı",
+
+    "HammermiSpearmi": "hammer mi yoksa spear mi siz seçiyonuz",
+
+    "premium": "premium rolü zımbırtısı fazla kasmadım",
+
+    "onlyFans": [
+        "sadece foto gönderilecek kanal idleri"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+  "KomutKullanımKanalİsim": ["yetkili-bot-command","bot-command"],
+
+  "cekilis": "", 
+  "etkinlik": "",
+  "duyuru": "",
+  "oyver": "",
+  "gununsorusu": "",
+  "turnuva": "",
+
+  "İlişkiler": {
+    "couple": "",
+    "alone": "",
+    "yapma": ""
+  },
+  "Renkler": {
+    "kirmizi": "🍓",
+    "turuncu": "🍊",
+    "mor": "🍇",
+    "pembe": "🍑",
+    "yesil": "🥑",
+    "mavi": "🧊",
+    "siyah": "🎱",
+    "beyaz": "🍥",
+    "sari": "🍋"
+  },
+  "Oyunlar": {
+    "csgo": "",
+    "lol": "",
+    "valorant": "",
+    "gta5": "",
+    "pubg": "",
+    "fortnite": "",
+    "mlbb": "",
+    "ets": "",
+    "apex": ""
+  },
+  "Burçlar": {
+    "koç": "Koç",
+    "boğa": "Boğa",
+    "ikizler": "İkizler",
+    "yengeç": "Yengeç",
+    "aslan": "Aslan",
+    "başak": "Başak",
+    "terazi": "Terazi",
+    "akrep": "Akrep",
+    "yay": "Yay",
+    "oğlak": "Oğlak",
+    "kova": "Kova",
+    "balık": "Balık"
+  },
+  "Takımlar": {
+    "galatasaray": "Galatasaray",
+    "fenerbahce": "Fenerbahçe",
+    "besiktas": "Beşiktaş",
+    "trabzonspor": "Trabzonspor"
+  },
+  "shipArkaplan": "https://cdn.discordapp.com/attachments/1198127572756746240/1220169722264551505/pexels-eberhard-grossgasteiger-1421903.jpg?ex=660df69b&is=65fb819b&hm=7986b9ce835ca91f4835700db57a1f90da00ded94311c4b036f5c1656754ea3c&"
+}
