@@ -44,3 +44,5 @@ Config dosyalarını doldurmanız yeterli, gerisi hazır! Botlarınızı hemen k
 - MIT License kullanılmaktadır
 - Herhangi bir ücretli kurulumu görülürse gerekli işlemler yapılacaktır
 - İyi çalışmalar!
+
+- Bot Hakkında resimli bilgilendirmeye https://imgur.com/a/brRSZDx linkinden ulaşabilirsiniz!
