@@ -1,25 +1,25 @@
 { 
-    "GuildID": "",
-    "GuildName": "",
+    "GuildID": "Botları Kuracağınız Sunucu ID'si",
+    "GuildName": "Botları Kuracağınız Sunucu Adı",
     "owners": ["1016751053368201256","972955971171274822"],
-    "BotDurum": ["", ""], 
-    "BotSesKanal": "",
+    "BotDurum": ["powered by cyr0nix", "powered by cyr0nix"], 
+    "BotSesKanal": "Botların gireceği ses kanalı",
     "realOwner": "972955971171274822",
-    "AltBaşlık": "cyr0nix-Ozi",
+    "AltBaşlık": "best regards cyr0nix",
 
-    "mongoUrl": "",
+    "mongoUrl": "mongoDB URL'niz",
 
     "Welcome": {
         "Active": true,
         "Tokens": [
-           "",
+           "Welcome Tokenleri",
            "",
            "",
            "",
            ""
         ],
         "Channels": [
-           "",
+           "Welcome Kanalları",
            "",
            "",
            "",
@@ -28,7 +28,7 @@
     },
 
     "Main": {
-        "ModerationToken": "",
+        "ModerationToken": "Tokenler sormayın amk",
         "RegisterToken": "",
         "StatsToken": "",
 
@@ -36,7 +36,7 @@
             "."
         ],
 
-        "BotClientID": "",
+        "BotClientID": "moderasyon botunun client id'si",
 
         "dmMessages": true,
         "LevelSystem": true,
@@ -58,7 +58,7 @@
         "chatmutelimit": 5,
         "voicemutelimit": 5
     },
-    "UrlGuardToken": "",
+    "UrlGuardToken": "boş bırak",
 
     "Guard": {
         "Token": {
@@ -66,10 +66,10 @@
             "Guard_II": "",
             "Guard_III": "",
 
-            "TaçHesapToken": "",
+            "TaçHesapToken": "boş bırak",
 
             "Dağıtıcı": [
-                ""
+                "guarda yardımcı tokenler"
             ]
         },
 

@@ -31,7 +31,7 @@ module.exports = {
             new Discord.ButtonBuilder()
             .setCustomId(`basvuru`)
             .setLabel(`Başvuru Yap!`)
-            .setEmoji(`1218184834321485905`)
+            .setEmoji(`👮‍♂️`)
             .setStyle(Discord.ButtonStyle.Success),
             new Discord.ButtonBuilder()
             .setCustomId('istifacy')
@@ -41,8 +41,8 @@ module.exports = {
             )
 
     const embed = new Discord.EmbedBuilder()
-        .setThumbnail(`${message.guild.iconURL({dyanmic:true})}`)
-        .setImage(`${message.guild.bannerURL({dynamic:true,size: 2048})}`)
+        .setThumbnail(message.guild.icon ? message.guild.iconURL({ dynamic: true, size: 2048 }) : null)
+        .setImage(message.guild.banner ? message.guild.bannerURL({ dynamic: true, size: 2048 }) : null)
         .setColor(`#0bf207`)
         .setDescription(`**Merhaba \`${message.guild.name}\` Üyeleri** \n\n **Yetkili başvuru sistemine hoşgeldiniz.**\n **Aşağıdaki butona basarak yetkili başvurusu yapabilir yada istifa edebilirsiniz!**`)
 message.channel.send({ embeds: [embed], components: [row] })

@@ -14,7 +14,7 @@ module.exports = async () => {
   if (!data || data && !data.messageListID.length) return
 
 const sunucuisim = client.guilds.cache.get(allah.GuildID).name
-let LeaderBoard = await client.channels.cache.find(x => x.name == "leaderboard").messages.fetch(data.messageListID);
+let LeaderBoard = await client.channels.cache.find(x => x.name == "📑│leaderboard").messages.fetch(data.messageListID);
  setInterval(() => {
  ChatLeaderBoard()
  }, 150000);

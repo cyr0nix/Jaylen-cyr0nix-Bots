@@ -31,8 +31,8 @@ module.exports = {
         )
 
     const embed = new EmbedBuilder()
-        .setThumbnail(`${message.guild.iconURL({dyanmic:true})}`)
-        .setImage(`${message.guild.bannerURL({dynamic:true,size: 2048})}`)
+        .setThumbnail(message.guild.icon ? message.guild.iconURL({ dynamic: true, size: 2048 }) : null)
+        .setImage(message.guild.banner ? message.guild.bannerURL({ dynamic: true, size: 2048 }) : null)
         .setColor(`#0bf207`)
         .setDescription(`**Merhaba \`${message.guild.name}\` Üyeleri** \n\n Sunucumuzun İstek/Öneri - Şikayet Sistemine Hoş Geldiniz! \n\n Aşağıdaki butonlardan İsteklerini belirtebilir ya da bir yetkiliyi yada farklı birisini şikayet edebilirsiniz.`)
 

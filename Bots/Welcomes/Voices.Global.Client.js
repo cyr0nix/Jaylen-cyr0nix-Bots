@@ -3,7 +3,6 @@ const { createAudioPlayer, createAudioResource, NoSubscriberBehavior, AudioPlaye
 const play = require('play-dl');
 const conf = require('./../Triple/src/configs/sunucuayar.json');
 const allah = require('./../../config.json');
-const { Model } = require('mongoose');
 
 class ozi extends Client {
     constructor(options) {

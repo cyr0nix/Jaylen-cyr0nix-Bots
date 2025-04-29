@@ -10,6 +10,3 @@ mongoose.connection.on("connected", () => {
 mongoose.connection.on("error", () => {
   console.error("[HATA] Database bağlantısı kurulamadı!");
 });
-
-
-db.vote_schemas.find({ user_id: "348810453478277131" })

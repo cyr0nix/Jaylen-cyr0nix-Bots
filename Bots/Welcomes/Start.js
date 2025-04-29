@@ -2,6 +2,7 @@ let { ozi } = require('./Voices.Global.Client');
 const { ActivityType } = require('discord.js');
 const { joinVoiceChannel, getVoiceConnection } = require('@discordjs/voice');
 const allah = require('./../../config.json');
+require("./src/handlers/mongoHandler");
 
 
 for (let index = 0; index < allah.Welcome.Tokens.length; index++) {

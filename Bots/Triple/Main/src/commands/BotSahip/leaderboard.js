@@ -25,7 +25,7 @@ module.exports = {
     const voiceUsers = voiceUsersData.splice(0, 30).map((x, index) => `\` ${index+1} \` <@${x.userID}>: \`${moment.duration(x.topStat).format("H [saat], m [dakika]")}\``).join(`\n`);
 
     const sunucuisim = client.guilds.cache.get(allah.GuildID).name
-    let LeaderBoard = await client.channels.cache.find(x => x.name == "leaderboard")
+    let LeaderBoard = await client.channels.cache.find(x => x.name == "📑│leaderboard")
   
     const msgList = (`${messageUsers.length > 0 ? messageUsers : "Veri Bulunmuyor."}`)
     const voiceList = (`${voiceUsers.length > 0 ? voiceUsers : "Veri Bulunmuyor."}`)

@@ -56,26 +56,14 @@ module.exports = {
                             
     \` ⦁ \` Eğer \`@Çekiliş Katılımcısı\` Rolünü alırsanız sunucumuzda sıkça vereceğimiz ve daha nice ödüllerin bulunduğu çekilişlerden haberdar olabilirsiniz. 
 
-    \` ⦁ \` Eğer \`@Turnuva Katılımcısı\` Rolünü alırsanız sunucumuzda sıkça yapacağımız ve daha nice ödüllerin bulunduğu turnuvalardan haberdar olabilirsiniz. 
-
-    \` ⦁ \` Eğer \`@Günün Sorusu\` Rolünü alırsanız Günün Sorusundan haberdar olursununz.
-
-    \` ⦁ \` Eğer \`@Duyuru\` Rolünü alırsanız sunucumuzda genel duyurulardan haberdar olabilirsiniz. 
-
-    \` ⦁ \` Eğer \`@Oy Destekçisi\` Rolünü alırsanız sunucumuzda günlük olarak oylar için hatırlatma etiketi atılmaktadır eğer destek olmak isterseniz rolü alabilirsiniz. 
-
     **NOT:** \`Kayıtlı, kayıtsız olarak hepiniz bu kanalı görebilmektesiniz. Sunucumuz da everyone veya here atılmayacağından dolayı kesinlikle rollerinizi almayı unutmayın.\``,
                     "components": [{
                         "type": 1, "components": [{
                             "type": 3, "custom_id": "etkinliks", "options": [
-                                { "label": "Etkinlik Katılımcısı", "description": "Etkinliklerden haberdar olmak için", "value": "etkinlik", "emoji": { "id": "1232546571162353716" }, },
-                                { "label": "Çekiliş Katılımcısı", "description": "Çekilişlerden haberdar olmak için", "value": "cekilis", "emoji": { "id": "1232546568817868971" }, },
-                                { "label": "Turnuva Katılımcısı", "description": "Turnuvalardan haberdar olmak için", "value": "turnuvax", "emoji": { "id": "1233967379172823090" }, },
-                                { "label": "Günün Sorusu", "description": "Günün Sorusundan haberdar olmak için", "value": "gununsorusu", "emoji": { "id": "1233967382146584658" }, },
-                                { "label": "Duyurular", "description": "Sunucudaki duyurulardan haberdar olmak için", "value": "duyuru", "emoji": { "id": "1232546573888651314" }, },
-                                { "label": "Destekçi", "description": "Oy verde hatırlatma için", "value": "oyver", "emoji": { "id": "1232546566196166676" }, },
+                                { "label": "Etkinlik Katılımcısı", "value": "etkinlik", "emoji": { "name": "🎉" }, },
+                                { "label": "Çekiliş Katılımcısı", "value": "cekilis", "emoji": { "name": "🎁" }, },
                                 { "label": "Rol İstemiyorum", "value": "rolsil", "emoji": { "name": "🗑️" }, }
-                            ], "placeholder": "Etkinlik Rolleri", "min_values": 0, "max_values": 6
+                            ], "placeholder": "Etkinlik Rolleri", "min_values": 0, "max_values": 2
                         }],
                     }
                     ]
@@ -106,17 +94,17 @@ module.exports = {
                     "components": [{
                         "type": 1, "components": [{
                             "type": 3, "custom_id": "games", "options": [
-                              { "label": "CS:GO", "value": "csgo", "emoji": { "id": "880606175274598461" }, },
-                              { "label": "League of Legends", "value": "lol", "emoji": { "id": "880606175761145906" }, },
-                              { "label": "Valorant", "value": "valorant", "emoji": { "id": "880606175387873281" }, },
-                              { "label": "Gta V", "value": "gta5", "emoji": { "id": "880606175408824321" }, },
-                              { "label": "PUBG", "value": "pubg", "emoji": { "id": "880606175178153994" }, },
-                              { "label": "Fortnite", "value": "fortnite", "emoji": { "id": "880606175488540693" }, },
-                              { "label": "Mobile Legends", "value": "mlbb", "emoji": { "id": "1218376145473638473" }, },
-                              { "label": "Euro Truck Simulator 2", "value": "ets", "emoji": { "id": "1237469248800948224" }, },
-                              { "label": "Apex Legends", "value": "apex", "emoji": { "id": "1237469244862763129" }, },
-                              { "label": "Rust", "value": "rust", "emoji": { "id": "1170309755856752731" }, },
-                              { "label": "Team Fight Tactics", "value": "tft", "emoji": { "id": "1124759690375594004" }, },
+                              { "label": "CS:GO", "value": "csgo", "emoji": { "id": "1366667978799583244" } },
+                              { "label": "League of Legends", "value": "lol", "emoji": { "id": "1366668024295325787" }},
+                              { "label": "Valorant", "value": "valorant", "emoji": { "id": "1366668057359028236" }},
+                              { "label": "Gta V", "value": "gta5", "emoji": { "id": "1366668245058191360" }},
+                              { "label": "PUBG", "value": "pubg", "emoji": { "id": "1366668273881452594" }},
+                              { "label": "Fortnite", "value": "fortnite", "emoji": { "id": "1366668314029461574" }},
+                              { "label": "Mobile Legends", "value": "mlbb", "emoji": { "id": "1366668464894246974" }},
+                              { "label": "Euro Truck Simulator 2", "value": "ets", "emoji": { "id": "1366668515737735178" }},
+                              { "label": "Apex Legends", "value": "apex", "emoji": { "id": "1366668563221577758" }},
+                              { "label": "Rust", "value": "rust", "emoji": { "id": "1366668711481835580" }},
+                              { "label": "Team Fight Tactics", "value": "tft", "emoji": { "id": "1366668756805488713" }},
                             { "label": "Rol İstemiyorum", "value": "rolsil", "emoji": { "name": "🗑️" }, }
                             ], "placeholder": "Oyun Rolleri", "min_values": 0, "max_values": 11
                         }],
@@ -127,14 +115,15 @@ module.exports = {
                     "components": [{
                         "type": 1, "components": [{
                             "type": 3, "custom_id": "renk", "options": [
-                                { "label": "Kırmızı", "description": "Kırmızı rengine sahip olmak için tıkla!", "value": "kirmizi", "emoji": { "name": "🍓" }, },
-                                { "label": "Turuncu", "description": "Turuncu rengine sahip olmak için tıkla!", "value": "turuncu", "emoji": { "name": "🍊" }, },
-                                { "label": "Mor", "description": "Mor rengine sahip olmak için tıkla!", "value": "mor", "emoji": { "name": "🍇" }, },
-                                { "label": "Pembe", "description": "Pembe rengine sahip olmak için tıkla!", "value": "pembe", "emoji": { "name": "🍑" }, },
-                                { "label": "Yeşil", "description": "Yeşil rengine sahip olmak için tıkla!", "value": "yesil", "emoji": { "name": "🥑" }, },
-                                { "label": "Mavi", "description": "Mavi rengine sahip olmak için tıkla!", "value:": "mavi", "emoji": { "name": "🧊"}, },
-                                { "label": "Beyaz", "description": "Beyaz rengine sahip olmak için tıkla!", "value": "beyaz", "emoji": { "name": "🍥" }, },
-                                { "label": "Sarı", "description": "Sarı rengine sahip olmak için tıkla!", "value": "sari", "emoji": { "name": "🍋" }, },
+                                { "label": "Kırmızı", "value": "kirmizi", "emoji": { "name": "🍓" }, },
+                                { "label": "Turuncu", "value": "turuncu", "emoji": { "name": "🍊" }, },
+                                { "label": "Mor", "value": "mor", "emoji": { "name": "🍇" }, },
+                                { "label": "Pembe", "value": "pembe", "emoji": { "name": "🍑" }, },
+                                { "label": "Yeşil", "value": "yesil", "emoji": { "name": "🥑" }, },
+                                { "label": "Mavi", "value:": "mavi", "emoji": { "name": "🧊"}, },
+                                { "label": "Siyah", "value": "siyah", "emoji": { "name": "🎱" }, },
+                                { "label": "Beyaz", "value": "beyaz", "emoji": { "name": "🍥" }, },
+                                { "label": "Sarı", "value": "sari", "emoji": { "name": "🍋" }, },
                                 { "label": "Rol İstemiyorum", "value": "rolsil", "emoji": { "name": "🗑️" }, }
                             ], "placeholder": "Renk Rolleri", "min_values": 1, "max_values": 1
                         }],
@@ -158,10 +147,10 @@ module.exports = {
                     "components":[{
                         "type": 1, "components": [{
                             "type": 3, "custom_id": "takim", "options": [
-                              { "label": "Galatasay", "value": "gs", "emoji": { id: "1217942949447602349"},},
-                              { "label": "Fenerbahçe", "value": "fb", "emoji": { id: "1217943007815532729"},},
-                              { "label": "Beşiktaş", "value": "bjk", "emoji": { id: "1217943068607643651"},},
-                              { "label": "Trabzonspor", "value": "ts", "emoji": { id: "1217943201185267762"},},
+                              { "label": "Galatasay", "value": "gs", "emoji": { "id": "1366669873538666496" }},
+                              { "label": "Fenerbahçe", "value": "fb", "emoji": { "id": "1366669905130160178" }},
+                              { "label": "Beşiktaş", "value": "bjk", "emoji": { "id": "1366669932967759973" }},
+                              { "label": "Trabzonspor", "value": "ts", "emoji": { "id": "1366669969529769995" }},
                               { "label": "Rol İstemiyorum", "value": "rolsil", "emoji": { "name": "🗑️" }, }
                             ], "placeholder": "Takım Rolleri", "min_values": 1, "max_values": 1
                         }],
@@ -183,8 +172,8 @@ module.exports = {
                     "components": [{
                         "type": 1, "components": [{
                             "type": 3, "custom_id": "etkinliks", "options": [
-                                { "label": "Etkinlik Katılımcısı", "description": "Etkinliklerden haberdar olmak için", "value": "etkinlik", "emoji": { "id": "941075067230625803" }, },
-                                { "label": "Çekiliş Katılımcısı", "description": "Çekilişlerden haberdar olmak için", "value": "cekilis", "emoji": { "id": "941074179401338900" }, },
+                                { "label": "Etkinlik Katılımcısı", "value": "etkinlik", "emoji": { "id": "941075067230625803" }, },
+                                { "label": "Çekiliş Katılımcısı", "value": "cekilis", "emoji": { "id": "941074179401338900" }, },
                                 { "label": "Rol İstemiyorum", "value": "rolsil", "emoji": { "name": "🗑️" }, }
                             ], "placeholder": "Etkinlik Rolleri", "min_values": 0, "max_values": 2
                         }],
@@ -267,11 +256,11 @@ module.exports = {
                     "components": [{
                         "type": 1, "components": [{
                             "type": 3, "custom_id": "renk", "options": [
-                                { "label": "Kırmızı", "description": "Kırmızı rengine sahip olmak için tıkla!", "value": "kirmizi", "emoji": { "name": "🍓" }, },
-                                { "label": "Turuncu", "description": "Turuncu rengine sahip olmak için tıkla!", "value": "turuncu", "emoji": { "name": "🍊" }, },
-                                { "label": "Mor", "description": "Mor rengine sahip olmak için tıkla!", "value": "mor", "emoji": { "name": "🍇" }, },
-                                { "label": "Pembe", "description": "Pembe rengine sahip olmak için tıkla!", "value": "pembe", "emoji": { "name": "🍑" }, },
-                                { "label": "Yeşil", "description": "Yeşil rengine sahip olmak için tıkla!", "value": "yesil", "emoji": { "name": "🥑" }, },
+                                { "label": "Kırmızı", "value": "kirmizi", "emoji": { "name": "🍓" }, },
+                                { "label": "Turuncu", "value": "turuncu", "emoji": { "name": "🍊" }, },
+                                { "label": "Mor", "value": "mor", "emoji": { "name": "🍇" }, },
+                                { "label": "Pembe", "value": "pembe", "emoji": { "name": "🍑" }, },
+                                { "label": "Yeşil", "value": "yesil", "emoji": { "name": "🥑" }, },
                                 { "label": "Rol İstemiyorum", "value": "rolsil", "emoji": { "name": "🗑️" }, }
                             ], "placeholder": "Renk Rolleri", "min_values": 1, "max_values": 1
                         }],
@@ -297,22 +286,13 @@ module.exports = {
     
     const etkinlik = await client.guilds.cache.get(allah.GuildID).roles.cache.get(ayar.etkinlik)
     const cekilis = await client.guilds.cache.get(allah.GuildID).roles.cache.get(ayar.cekilis)
-    const duyuru = await client.guilds.cache.get(allah.GuildID).roles.cache.get(ayar.duyuru)
-    const oyver = await client.guilds.cache.get(allah.GuildID).roles.cache.get(ayar.oyver)
-    const gununsorusu = await client.guilds.cache.get(allah.GuildID).roles.cache.get(ayar.gununsorusu)
-    const turnuvax = await client.guilds.cache.get(allah.GuildID).roles.cache.get(ayar.turnuva)
 
-     
      if (interaction.customId === "etkinliks") {
             let eventsMap = new Map([
               ["etkinlik", etkinlik],
-              ["cekilis", cekilis],
-              ["turnuvax", turnuvax],
-              ["gununsorusu", gununsorusu],
-              ["duyuru", duyuru],
-              ["oyver", oyver]
+              ["cekilis", cekilis]
             ])
-            let roles = [etkinlik, cekilis, duyuru, oyver, gununsorusu, turnuvax]
+            let roles = [etkinlik, cekilis]
             var role = []
             for (let index = 0; index < interaction.values.length; index++) {
               let ids = interaction.values[index]
@@ -443,11 +423,12 @@ module.exports = {
               ["pembe", pembe],
               ["yesil", yesil],
               ["mavi", mavi],
+              ["siyah", siyah],
               ["beyaz", beyaz],
               ["sari", sari]
             ])
             let role = color.get(interaction.values[0]);
-            let renkroller = [kirmizi, turuncu, mor, pembe, yesil, mavi, beyaz, sari].map(role => role.id);
+            let renkroller = [kirmizi, turuncu, mor, pembe, yesil, mavi, siyah, beyaz, sari].map(role => role.id);
             const hasRenkRole = member.roles.cache.some(r => renkroller.includes(r.id))
             if (!member.roles.cache.has(conf.boosterRolu) && !member.permissions.has(PermissionsBitField.Flags.Administrator)) {
                 interaction.reply({ content: "Rollerin güncellenirken bir sorun meydana geldi **(Boost basmamışsın)**" , ephemeral: true })

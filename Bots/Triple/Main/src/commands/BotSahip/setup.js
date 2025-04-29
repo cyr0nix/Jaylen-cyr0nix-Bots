@@ -60,14 +60,14 @@ if(!choose) {
 await message.reply({ content: `Botun kurulumu hakkında bilgi almak için aşağıdaki menüyü kullanınız.`, components: [row] });
 }
 
-const embed = new EmbedBuilder().setThumbnail(message.guild.iconURL({ dynamic: true, size: 2048 }))
+const embed = new EmbedBuilder().setThumbnail(message.guild.icon ? message.guild.iconURL({ dynamic: true, size: 2048 }) : null)
 .setDescription(`${message.author.toString()}, **${message.guild.name}** sunucususu içerisinde <t:${Math.floor(Date.now() / 1000)}:R>'den itibaren sunucu kurulum komutları hakkında bilgilendirme almak için aşağıdaki menüyü kullanabilirsiniz.`)
 .setFooter({
 text: `Veri Yenileme ile kurulum verilerinizi datadan güncellemeyi unutmayınız.`,
 iconURL: message.author.displayAvatarURL({ dynamic: true })
 })
 
-const embed2 = new EmbedBuilder().setThumbnail(message.guild.iconURL({ dynamic: true, size: 2048 }))
+const embed2 = new EmbedBuilder().setThumbnail(message.guild.icon ? message.guild.iconURL({ dynamic: true, size: 2048 }) : null)
 .setDescription(`${message.author.toString()}, **${message.guild.name}** sunucususu içerisinde <t:${Math.floor(Date.now() / 1000)}:R>'den itibaren sunucuda kurulumu gerçekleşmiş olan veriler hakkında bilgilendirme almak için aşağıdaki menüyü kullanabilirsiniz.`)
 .setFooter({
 text: `Veri Yenileme ile kurulum verilerinizi datadan güncellemeyi unutmayınız.`,

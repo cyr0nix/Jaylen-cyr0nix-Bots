@@ -32,7 +32,7 @@ module.exports = {
         .setColor("#fc03b1")
         .setDescription(`:tada: **\`${guild.name}\` Sunucusunun Özel Oda sistemine hoşgeldin.**\n\n ${cyronixOk} **Aşağıdaki buton yardımıyla yeni bir özel oda oluşturabilirsin**\n\n ⚠️ **Not:** [\` Sesli kanalın sohbet kısmından kanalınıza özel ayarlar paneline ulabilirsiniz. \`]`)
         .setFooter({ text: `${allah.AltBaşlık}` })
-        .setThumbnail(`${message.guild.iconURL({ dynamic: true })}`)
+        .setThumbnail(message.guild.icon ? message.guild.iconURL({ dynamic: true, size: 2048 }) : null)
         .setImage(guild.bannerURL({dynamic: true,size: 2048}))
 
     await message.channel.send({ embeds: [embedx], components: [row]});  },
@@ -323,45 +323,45 @@ client.on("interactionCreate", async (modal) => {
             let row2 = new ActionRowBuilder().addComponents(
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon1")
-                .setEmoji(`1213643978902212648`)
+                .setEmoji(`1365673331579162664`)
                 .setStyle(ButtonStyle.Secondary),
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon2")
-                .setEmoji(`1213644006018523146`)
+                .setEmoji(`1365673348822204487`)
                 .setStyle(ButtonStyle.Secondary),
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon3")
-                .setEmoji(`1213644035990749194`)
+                .setEmoji(`1365673380455518218`)
                 .setStyle(ButtonStyle.Secondary),
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon4")
-                .setEmoji(`1213644055221637140`)
+                .setEmoji(`1365673397794897931`)
                 .setStyle(ButtonStyle.Secondary),
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon5")
-                .setEmoji(`1213644083176677427`)
+                .setEmoji(`1365673415654113330`)
                 .setStyle(ButtonStyle.Secondary),
             );
             let row3 = new ActionRowBuilder().addComponents(
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon6")
-                .setEmoji(`1213644108451553290`)
+                .setEmoji(`1365673434390073366`)
                 .setStyle(ButtonStyle.Secondary),
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon7")
-                .setEmoji(`1213644127376511016`)
+                .setEmoji(`1365673456158376108`)
                 .setStyle(ButtonStyle.Secondary),
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon8")
-                .setEmoji(`1213644147634868288`)
+                .setEmoji(`1365673479743082517`)
                 .setStyle(ButtonStyle.Secondary),
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon9")
-                .setEmoji(`1213644165192360006`)
+                .setEmoji(`1365673501884809276`)
                 .setStyle(ButtonStyle.Secondary),
                 new ButtonBuilder()
                 .setCustomId("pompalamasyon10")
-                .setEmoji(`1213644192354406471`)
+                .setEmoji(`1365673528161992754`)
                 .setStyle(ButtonStyle.Secondary),
             );
             

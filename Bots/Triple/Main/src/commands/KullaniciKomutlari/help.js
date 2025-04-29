@@ -35,36 +35,43 @@ module.exports = {
             label: 'Kullanıcı Komutları',
             description: 'Kullanıcı Komutlar',
             value: 'kullanıcı',
+            emoji: '1366675130218053694'
           },			
           {
             label: 'Kayıt Komutları',
             description: 'Kayıt Komutlar',
             value: 'reg',
+            emoji: '1366675130218053694'
           },
           {
             label: 'Cezalandırma Komutları',
             description: 'Cezalandırma Komutlar',
             value: 'ceza',
+            emoji: '1366675130218053694'
           },
           {
             label: 'Stat Komutları',
             description: 'Stat Komutlar',
             value: 'stats',
+            emoji: '1366675130218053694'
           },
           {
             label: 'Yetkili Komutları',
             description: 'Yetkili Komutlar',
             value: 'yt',
+            emoji: '1366675130218053694'
           },
           {
             label: 'Kurucu Komutları',
             description: 'Kurucu Komutlar',
             value: 'owner',
+            emoji: '1366675130218053694'
           },
           {
             label: 'cyr0nix Komutları',
             description: 'cyr0nix Komutlar',
             value: 'botsahip',
+            emoji: '1366675130218053694'
           },
         ]),
     );

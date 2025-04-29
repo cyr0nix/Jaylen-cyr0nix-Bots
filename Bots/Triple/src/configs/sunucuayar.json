@@ -1,127 +1,126 @@
 {
     "staffs": [
-        "botCommandRole"
+        "bot komut rol idsi"
     ],
     "erkekRolleri": [
-        ""
+        "erkek rolleri"
     ],
     "kizRolleri": [
-        ""
+        "kız rolleri"
     ],
     "unregRoles": [
-        ""
+        "kayıtsız rolü"
     ],
     "yetkiRolleri": [
         "ilk yetki rolleri"
       ],
     "teyitciRolleri": [
-        ""
+        "kayıt sorumlusu rolleri"
     ],
     "ekipRolu": "taglı rolü",
     "sahipRolu": [
-        "owner rolleri işte"
+        "sunucu sahip rolleri"
     ],
-    "boosterRolu": "",
+    "boosterRolu": "adı üstünde",
     "warnHammer": [
-        ""
+        "uyarı atıcak rollerin idsi"
     ],
     "banHammer": [
-        ""
+        "ban atıcak rollerin idsi"
     ],
     "jailHammer": [
-        ""
+        "jail atıcak rollerin idsi"
     ],
     "cmuteHammer": [
-        ""
+        "chatmute atıcak rollerin idsi"
     ],
     "vmuteHammer": [
-        ""
+        "voicemute atıcak rollerin idsi"
     ],
-    "tag": "",
-    "ikinciTag": "",
-    "etiket": "",
+    "tag": "tag",
+    "ikinciTag": "ikinci tag",
     "jailRole": [
-        ""
+        "jail rolü"
     ],
     "chatMute": [
-        ""
+        "c.muted rolü"
     ],
     "voiceMute": [
-        ""
+        "v.muted rolü"
     ],
     "fakeAccRole": [
-        ""
+        "şüpheli rolü"
     ],
     "rolverici": [
-        ".rolveri kullanacak şahsiyetler"
+        ".rolver komutunu kullanabilen yetkili rollerin idleri"
     ],
-    "chatChannel": "",
-    "teyitKanali": "",
-    "invLogChannel": "",
-    "banLogChannel": "",
-    "jailLogChannel": "",
-    "cmuteLogChannel": "",
-    "vmuteLogChannel": "",
-    "warnLogChannel": "",
-    "kurallar": "",
-    "KomutKullanımKanalİsim": ["yetkili-bot-command","bot-command"],
-    "cezapuanlog": "",
-    "vipRole": "",
-    "müzisyenRole": "",
-    "tasarımcıRole": "",
-    "streamerRole": "",
-    "sorunçözücüRole": "",
-    "publicParents": "Parentler yani kategoriler",
+    "chatChannel": "chat kanalı",
+    "teyitKanali": "register kanalı",
+    "invLogChannel": "inv log kanalı",
+    "banLogChannel": "ban log kanalı",
+    "jailLogChannel": "jail log kanalı",
+    "cmuteLogChannel": "chatmute log kanalı",
+    "vmuteLogChannel": "voicemute log kanalı",
+    "warnLogChannel": "uyarı log",
+    "kurallar": "kurallar kanalı",
+    "KomutKullanımKanalİsim": ["bot komut yetkili komut gibi kanalların isimleri"],
+    "cezapuanlog": "cezapuan log kanalı",
+    "vipRole": "vip rolü",
+    "müzisyenRole": "müzisyen rolü",
+    "tasarımcıRole": "tasarımcı rolü",
+    "streamerRole": "streamer rolü",
+    "sorunçözücüRole": "sorun çözücü rolü",
+    "publicParents": "Parents yani kategoriler buraya public kategorisini gir",
     "registerParents": [
-        ""
+        "register kategorisi"
     ],
     "solvingParents": [
-        ""
+        "sorun çözme kategorisi"
     ],
     "privateParents": [
-        ""
+        "secret room kategosisi 2li kanalların olduğu"
     ],
     "aloneParents": [
         ""
     ],
     "funParents": [
-        ""
+        "etkinlik ve streamer kategorisi"
     ],
-    "serverUrl": "",
-    "Katıldı": "toplatı için katıldı rolü",
+    "serverUrl": "sw urlsi ama boş xd",
+    "Katıldı": "toplantıya katıldı rolü",
     "yasaklıRole": [
-        "yasaklıtagrolü"
+        "yasaklı tag rolü"
     ],
     "doomRole": [
         "underworld rolü"
     ],
-    "doomLogChannel": "",
-    "secretroomParent": "özel oda kategorisi",
-    "terapistRole": "",
+    "doomLogChannel": "underworld log kanalı",
+    "secretroomParent": "Özel Oda sisteminin olacağı kategori",
+    "terapistRole": "terapist rolü",
 
-    "ChatLevel1": "Chat Rolleri",
+    "ChatLevel1": "chat level rolleri 1 en düşük",
     "ChatLevel2": "",
     "ChatLevel3": "",
     "ChatLevel4": "",
 
-    "VoiceLevel1": "",
+    "VoiceLevel1": "ses level rolleri 1 en düşük",
     "VoiceLevel2": "",
     "VoiceLevel3": "",
     "VoiceLevel4": "",
 
     "LevelUpChannelName": "level-bilgilendirme",
 
-    "boosterLog": "booster log kanal idsi",
+    "boosterLog": "boost basıldığında log düşülecek kanal",
 
-    "basvuruDurum": "yetkilibaşvuru onaylandıktan yada reddedildikten sonra gidecek bilgilendirme mesajı",
+    "basvuruDurum": "yetkili başvuru durumunu bildiren kanal",
 
-    "streamerDurum": "yetkilibaşvuru onaylandıktan yada reddedildikten sonra gidecek bilgilendirme mesajı",
+    "streamerDurum": "streamer başvuru durumunu bildiren kanal",
 
-    "HammermiSpearmi": "hammer mi yoksa spear mi siz seçiyonuz",
+    "HammermiSpearmi": "boş bırakabilirsin",
 
     "premium": "premium rolü zımbırtısı fazla kasmadım",
 
     "onlyFans": [
-        "sadece foto gönderilecek kanal idleri"
+        "sadece resim atılacak kanal idleri"
     ]
 }

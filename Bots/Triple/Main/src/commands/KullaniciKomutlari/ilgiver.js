@@ -573,42 +573,42 @@ module.exports = {
                         label: "İltifat Et",
                         value: "iltifat",
                         description: "İltifat Etdersin",
-                        emoji: "1094619366143823962"
+                        emoji: "1365672262165856256"
 
                     },
                     {
                         label: "İlgi Ver!",
                         value: "ilgi",
                         description: "İlgi sevgi verir",
-                        emoji: "935966185319723048"
+                        emoji: "1365672262165856256"
 
                     },
                     {
                         label: "Trip!",
                         value: "süründür",
                         description: "Trip atarak süründürür",
-                        emoji: "1191449207320621096"
+                        emoji: "1365672262165856256"
 
                     },
                     {
                         label: "Öp!",
                         value: "öp",
                         description: "Öpücük verir",
-                        emoji: "935965311486787654"
+                        emoji: "1365672262165856256"
 
                     },
                     {
                         label: "Tokat!",
                         value: "tokat",
                         description: "Tokat Atar.",
-                        emoji: "992864405748461578"
+                        emoji: "1365672262165856256"
 
                     },
                     {
                         label: "Kapat",
                         description: "Menüyü kapatır.",
                         value: "closeMenu",
-                        emoji: "998715544683434115"
+                        emoji: "1365672262165856256"
                     }
                 ])
         );

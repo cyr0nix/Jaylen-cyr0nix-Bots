@@ -100,7 +100,7 @@ ${cyronixTik} Sunucumuza <t:${Math.floor(Date.now() / 1000)}:R> Zamanında Katı
 ${cyronixOk} Tagımıza Ulaşmak İçin Herhangi Bir Kanala \`.tag\` Yazabilirsiniz.
             `)
             .setThumbnail(member.user.avatarURL({ dynamic: true }))
-            .setImage(`${member.guild.bannerURL({dynamic:true,size:2048})}`)
+            // .setImage(`${member.guild.bannerURL({dynamic:true,size:2048})}`)
             .setFooter({ text: `${allah.AltBaşlık}` });
 
 if (!usedInvite) {
@@ -133,7 +133,7 @@ ${cyronixTik} Sunucumuza <t:${Math.floor(Date.now() / 1000)}:R> Zamanında Katı
 ${cyronixOk} Tagımıza Ulaşmak İçin Herhangi Bir Kanala \`.tag\` Yazabilirsiniz.
             `)
             .setThumbnail(member.user.avatarURL({ dynamic: true }))
-            .setImage(`${member.guild.bannerURL({dynamic:true,size:2048})}`)
+            // .setImage(`${member.guild.bannerURL({dynamic:true,size:2048})}`)
             .setFooter({ text: `${allah.AltBaşlık}` });
 
 

@@ -74,13 +74,13 @@ module.exports = async (message) => {
     if (message.content === "Selamun aleyküm") {
         message.reply({ content: "Aleyküm Selam" })
     }
-    if (message.content === "<@1016751053368201256>") {
+    if (message.content === "<@1016751053368201256>" || message.content === "<@972955971171274822>") {
         message.reply({ content: "Siz bana yazın ben iletirim :D" })
     }
     if (message.content === ".anan") {
         message.channel.send({ content: "Anneme sövme piç" })
     }
-    if (message.content === "<@1217973841150742639>") {
+    if (message.content === client.user.id) {
         message.reply({ content: "Buyrun benim ;)! " })
     }
     if (message.content === "Sea") {
