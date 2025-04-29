@@ -9,26 +9,25 @@
 - Rol ve kanal koruması
 - Sunucu ayarları güvenliği
 - Webhook koruması
-- URL koruması ([Jaylen-cyr0nix-Bots - GitHub](https://github.com/cyr0nix/Jaylen-cyr0nix-Bots?utm_source=chatgpt.com))
 
 ### 🛡️ Moderasyon Botu
 
 - Ban, kick, jail sistemleri
 - Sohbet kontrolü
 - Yetkili komutları
-- Görev sistemi ve daha fazlası ([Jaylen-cyr0nix-Bots - GitHub](https://github.com/cyr0nix/Jaylen-cyr0nix-Bots?utm_source=chatgpt.com))
+- Görev sistemi ve daha fazlası
 
 ### 📝 Kayıt (Register) Botu
 
 - Kayıt sistemi
 - İsim geçmişi takibi
-- Cinsiyet rolleri atama ([Jaylen-cyr0nix-Bots - GitHub](https://github.com/cyr0nix/Jaylen-cyr0nix-Bots?utm_source=chatgpt.com))
+- Cinsiyet rolleri atama
 
 ### 📊 İstatistik (Stat) Botu
 
 - Ses ve sohbet istatistikleri
 - Aktivite kayıtları
-- Rütbe (rank) sistemi ([Jaylen-cyr0nix-Bots - GitHub](https://github.com/cyr0nix/Jaylen-cyr0nix-Bots?utm_source=chatgpt.com))
+- Rütbe (rank) sistemi
 
 ## ⚙️ Kurulum ve Kullanım
 
@@ -54,14 +53,14 @@
 - İstediğiniz kadar karşılama (welcome) botu ekleyebilirsiniz
 - Özelleştirilebilir yapı
 - Gereksiz yere bot satın almanıza gerek yok
-- Sadece `config.json` dosyasını doldurarak botları kullanmaya başlayabilirsiniz ([Jaylen-cyr0nix-Bots - GitHub](https://github.com/cyr0nix/Jaylen-cyr0nix-Bots?utm_source=chatgpt.com))
+- Sadece `config.json` dosyasını doldurarak botları kullanmaya başlayabilirsiniz
 
 ## 📌 Notlar
 
 - Emoji kurulumunda bazı emojiler silinmiş olabilir, özür dileriz.
 - Bu proje **GPL-3.0** lisansı ile lisanslanmıştır.
 - Herhangi bir ücretli kurulumu tespit edilirse gerekli işlemler yapılacaktır.
-- Bot hakkında resimli bilgilendirmeye [buradan](https://imgur.com/a/brRSZDx) ulaşabilirsiniz. ([Jaylen-cyr0nix-Bots - GitHub](https://github.com/cyr0nix/Jaylen-cyr0nix-Bots?utm_source=chatgpt.com))
+- Bot hakkında resimli bilgilendirmeye [buradan](https://imgur.com/a/brRSZDx) ulaşabilirsiniz.
 
 ## 🤝 Katkıda Bulunma
 
